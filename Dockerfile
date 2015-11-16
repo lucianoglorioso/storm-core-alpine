@@ -11,6 +11,7 @@ RUN apk add -U bash openjdk7-jre python supervisor && \
 
 ENV STORM_HOME /opt/storm
 
+# Creating storm dist folder
 RUN mkdir /opt/storm/data
 
 # Adding storm related configurations
